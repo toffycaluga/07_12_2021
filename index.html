@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="pagina02.html" method="get">
+		<table border="1">
+			<tr>
+				<td>Ingrese nombre</td>
+				<td><input type="text" name="nom" required autofocus=""></td>
+			</tr>
+			<tr>
+				<td>ingrese rut</td>
+				<td><input type="text" name="rut" maxlength="10"></td>
+			</tr>
+			<tr>
+				<td>estado civil</td>
+				<td>soltero<input type="radio" name="estado" value="soltero">
+					casado<input type="radio" name="estado" value="casado">
+					viudo<input type="radio" name="estado" value="viudo">
+					separado<input type="radio" name="estado" value="separado">
+
+				</td>
+			</tr>
+			<tr>
+				<td>vivienda</td>
+				<td><input type="checkbox" name="casa"></td>
+			</tr>
+			<tr>
+				<td>fecha</td>
+				<td><input type="date" name="fecha"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>select</td>
+				<td>
+					<select name="city">
+						<option>paris</option>
+						<option>madrid</option>
+						<option>budapest</option>
+						<option>londres</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>color</td>
+				<td><input type="color" name="col"></td>
+			</tr>
+			<tr>
+				<td>e-mail</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td>detalles</td>
+				<td><input type="text" name="det1" value="ejemplo solo lectura" readonly size="40"></td>
+			</tr>
+			<tr>
+				<td>detalles2</td>
+				<td><input type="text" name="det2" value="ejemplo solo lectura" disabled=""></td>
+			</tr>
+			<tr>
+				<td>detalles3</td>
+				<td><input type="text" name="det1" value="ejemplo solo lectura" hidden></td>
+			</tr>
+			<tr>
+				<td>numero</td>
+				<td><input type="number" name="num" min="10" max="100"></td>
+			</tr>
+			<tr>
+				<td>obs.</td>
+				<td>
+					<textarea name="obj" rows="3 "cols="40"></textarea>
+				</td>
+			</tr>
+			<tr>
+
+				<td colspan="2"><input type="submit" name="boton" value="enviar"></td>
+			</tr>
+
+		</table>
+	
+	</form>
+
+</body>
+</html>
